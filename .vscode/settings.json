@@ -1,5 +1,7 @@
 {
-    "python.linting.pylintArgs":[
-        "--disable-msg=E1601"
-    ]
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin/python3",
+    "python.formatting.provider": "yapf",
+    "files.insertFinalNewline": true
 }

@@ -1,14 +1,19 @@
 if __name__ == '__main__':
-    print '--- think.py ---'
+    print("--- think.py ---")
 
 # 代码1
-# def print_lyrics():
-#     print "你好，我打印出来函数lyrics的内容"
-#     print "Python非常有意思"
-# def repeat_lyrics():
-#     print_lyrics()
 
-# repeat_lyrics()
+
+def print_lyrics():
+    print("你好，我打印出来函数lyrics的内容")
+    print("Python非常有意思")
+
+
+def repeat_lyrics():
+    print_lyrics()
+
+
+repeat_lyrics()
 
 # 代码2
 # def sort_by(x, y):
@@ -120,11 +125,11 @@ if __name__ == '__main__':
 # s.print_score()
 
 
-## 代码9
+# 代码9
 # for a in [3,4.4,"life"]:
 #     print '打印序列元素: {0}'.format(a)
 
-## 代码10
+# 代码10
 # 总价100万的房子，全额贷款买房，前四年利率有折扣，分别是1%、2%、3%、3.5%
 # 其余年份里房贷利率都是5%，逐年还款，每年最多偿还3万元。
 # 问: 完全还清房贷需要多少年？
@@ -145,9 +150,9 @@ if __name__ == '__main__':
 
 # print '恭喜您，通过{0}年终于还清了房贷'.format(year)
 
-## 代码11
-## 函数定义: 形参
-## 函数调用: 实参
+# 代码11
+# 函数定义: 形参
+# 函数调用: 实参
 # def print_hello():
 #     """ print hello world """
 #     print 'Hello World'
